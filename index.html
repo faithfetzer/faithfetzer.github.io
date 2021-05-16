@@ -72,29 +72,27 @@
         <h3 class="section-heading">About Me</h3>
       </div>
       <div>
-        <ul id="personal-list">
+        <!-- <ul id="personal-list">
           <div class="row">
-            <div class="col-sm">
+            <div class="col">
           <li>triathlete</li></div>
-          <div class="col-sm">
+          <div class="col">
           <li>potter</li></div>
-          <div class="col-sm">
+          <div class="col">
           <li>always learning</li></div>
-          </div>
-          <div class="row">
-            <div class="col-sm">
+          <div class="col">
           <li>volunteer</li></div>
-          <div class="col-sm">
+          <div class="col">
           <li>traveler</li></div>
 
-          <div class="col-sm">
+          <div class="col">
           <li>watermelon lover</li></div>
           </div>
-        </ul>
+        </ul> -->
         <p>
           I solve problems and I teach. I thrive on finding ways to improve- big and small- and making sure that everyone understands what they need to. I love to learn new things, and I love to share my knowledge. I always want an experience to be better- for both internal and external users.
           <br>
-          
+          I discovered pottery in 2018 and found my love for creation, 
           <br>
           I have always been process-driven, and loved math and science, but I also want to make sure that people are the focus.
           <br>
@@ -203,15 +201,68 @@
             </a>
           </div>
         </div>
+        <!-- <div class="row">
+          <div class="card">
+               <a href="">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Future</h5>
+              <p class="card-text">
+                  TBD.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">date</small>
+            </div>
+          </a>
+            </div>
+        <div class="card">
+           <a href="">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Future</h5>
+              <p class="card-text">
+                  TBD.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">date</small>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Future</h5>
+              <p class="card-text">
+                  TBD.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">date</small>
+            </div>
+          </a>
+        </div>
+      </div> -->
       </div>
     </div>
     <div class="container contact" id="contact-me">
       <div>
         <h3 class="section-heading">Contact Me</h3>
       </div>
-      <form>
-          <!--contact me form-->
-      </form>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mdoyawkb" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Send Message">
+        </form>
     </div>
     <script src="./script.js"></script>
     <script

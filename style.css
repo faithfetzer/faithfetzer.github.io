@@ -1,6 +1,7 @@
 body{
-    background-color: #FAE1DD;
+    background-image: url("./assets/pawel-czerwinski-MQQcZ-0Dg-k-unsplash.jpg");
     font-family: 'Roboto', sans-serif;
+    /* background: rgba(0,0,0, 0.1); */
 }
 
 h3{
@@ -9,19 +10,21 @@ h3{
 }
 
 .navbar {
-    background-color: #FAE1DD;
+    background-color: #FAE1DD80;
+    margin-bottom: 25px;
 }
 
 .container {
-    background-color: #FEC5BB;
+    background-color: #FEC5BB85;
+    border-radius: 8px;
+    margin-bottom: 25px;
 }
 
 .landing {
-    background-color: #4e3b38;
+    background-color: #4e3b38e6;
     color: #FFD7BA;
     text-align: center;
-    margin-bottom: 15px;
-    
+    margin-bottom: 25px;
 }
 
 .landing h3 {
@@ -34,16 +37,18 @@ h3{
     padding: 100px;
 }
 
-#personal-list {
+#about-me-text {
+    padding: 10px 20px;
+}
+/* #personal-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-#personal-list li{
-    border: 2px solid #FFD7BA;
-    border-radius: 3px;
-}
+#personal-list li {
+    width: 50vw;
+} */
 
 .about-me {
     text-align: center;
@@ -64,6 +69,7 @@ a:hover{
 
 .card {
     background-color: #FCD5CE;
+    border-radius: 5px;
 }
 
 .row {
@@ -71,8 +77,66 @@ a:hover{
 }
 
 .card-deck {
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
+
+
+/* #personal-list {
+ height: 50px;	
+ overflow: hidden;
+ /* position: relative; */
+ /*
+ background: yellow;
+ color: orange;
+ border: 1px solid orange;
+}
+#personal-list {
+ /* position: absolute; */
+ /*
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ /*
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ /*
+ -moz-animation: scroll-slow 25s linear infinite;
+ -webkit-animation: scroll-slow 25s linear infinite;
+ animation: scroll-slow 25s linear infinite;
+}
+/* Move it (define the animation) */
+/*
+@-moz-keyframes scroll-slow {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-slow {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-slow {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ /*
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ /*
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ /*
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ /*
+ transform: translateX(-100%); 
+ }
+} */
+
+
 /* 
 color palette:
 https://coolors.co/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a
