@@ -5,7 +5,10 @@ body{
 
 h3{
     text-align: center;
-    padding: 3px 3px;
+    padding: 10px 3px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #FCD5CE;
 }
 
 .navbar {
@@ -32,6 +35,7 @@ h3{
 .landing h3 {
     font-family: 'Monoton', cursive;
     font-size: 100px;
+    font-weight: normal;
     text-shadow: 10px 10px 8px black;
 }
 
@@ -87,21 +91,33 @@ a:hover{
     border: 2px solid #FFD7BA;
     object-fit: cover;
     position: relative;
-    height: 230px;
+    height: 200px;
 }
 
+.form-group{
+    text-align: center;
+}
+
+.submit {
+    justify-self: center;
+}
+
+.headshot{
+    border-radius: 10px;
+    border: 3px solid #FFD7BA;
+}
 
 /* 
 color palette:
 https://coolors.co/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a
-FEC5BB
-FCD5CE
-FAE1DD
+*FEC5BB
+*FCD5CE
+*FAE1DD
 F8EDEB
 FAE1DD
 D8E2DC
 ECE4DB
 FFE5D9
-FFD7BA
+*FFD7BA
 FAE1DD
 */
