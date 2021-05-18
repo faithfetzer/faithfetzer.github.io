@@ -45,10 +45,7 @@ h3{
 
 #about-me-text {
     padding: 10px 20px;
-}
-
-.about-me {
-    text-align: center;
+    text-align: justify;
 }
 
 .skills{
@@ -93,6 +90,7 @@ a:hover{
     position: relative;
     height: 200px;
 }
+
 
 .form-group{
     text-align: center;
