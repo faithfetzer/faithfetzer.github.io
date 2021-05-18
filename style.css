@@ -4,11 +4,15 @@ body{
 }
 
 h3{
+    text-transform: uppercase;
     text-align: center;
     padding: 10px 3px;
     font-size: 40px;
     font-weight: bold;
-    text-shadow: 5px 5px 5px #FCD5CE;
+}
+
+h3:hover {
+    text-shadow: -3px -3px 2px #F8EDEB;
 }
 
 .navbar {
@@ -19,7 +23,8 @@ h3{
 .contact-links svg{
     height: 30px;
 }
-.container {
+
+.bigSection {
     background-color: #FEC5BB85;
     border-radius: 8px;
     margin-bottom: 25px;
@@ -30,6 +35,7 @@ h3{
     color: #FFD7BA;
     text-align: center;
     margin-bottom: 25px;
+    border-radius: 8px;
 }
 
 .landing h3 {
@@ -38,6 +44,12 @@ h3{
     font-weight: normal;
     text-shadow: 10px 10px 8px black;
 }
+
+@media only screen and (max-width: 768px) {
+    .landing h3 {font-size: 50px;}
+
+}
+
 
 #landing-text{
     padding: 100px;
@@ -51,6 +63,7 @@ h3{
 .skills{
     text-align: center;
 }
+
 .skills svg {
     height: 50px;
     margin: 10px 0px;
@@ -58,11 +71,13 @@ h3{
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover{
     font-weight: bold;
     text-decoration: none;
+    color: navyblue;
 }
 
 .second-link {
@@ -72,7 +87,7 @@ a:hover{
 .card {
     background-color: #FCD5CE;
     border-radius: 5px;
-    text-align: center;
+    text-align: justify;
     overflow: hidden;
 }
 
@@ -87,17 +102,20 @@ a:hover{
 .card-img-top {
     border: 2px solid #FFD7BA;
     object-fit: cover;
-    position: relative;
     height: 200px;
 }
 
-
-.form-group{
-    text-align: center;
+#css-creature{
+    object-position: 5% 10%;
 }
 
-.submit {
-    justify-self: center;
+.card-img-top:hover{
+    object-fit: cover;
+    height: 300px;
+}
+
+.card-footer, .card-title, .form-group{
+    text-align:center;
 }
 
 .headshot{
@@ -105,6 +123,23 @@ a:hover{
     border: 3px solid #FFD7BA;
 }
 
+.submit { 
+    color: #0A0D0A; 
+    background-color: #D8E2DC; 
+    border-color: #FFD7BA; 
+    margin-bottom: 5px;
+  } 
+   
+  .submit:hover { 
+    color: #0A0D0A; 
+    background-color: #FCD5CE; 
+    border-color: #FFD7BA; 
+  } 
+   
+footer{
+    text-align: center;
+}
+  
 /* 
 color palette:
 https://coolors.co/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a
@@ -119,3 +154,6 @@ FFE5D9
 *FFD7BA
 FAE1DD
 */
+
+/*submit button info:
+https://blog.koalite.com/bbg/ */
