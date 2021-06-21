@@ -1,145 +1,161 @@
-body{
-    background-image: url("./assets/pawel-czerwinski-MQQcZ-0Dg-k-unsplash.jpg");
-    font-family: 'Roboto', sans-serif;
+body {
+  background-image: url("./assets/pawel-czerwinski-MQQcZ-0Dg-k-unsplash.jpg");
+  font-family: "Roboto", sans-serif;
 }
 
-h3{
-    text-transform: uppercase;
-    text-align: center;
-    padding: 10px 3px;
-    font-size: 40px;
-    font-weight: bold;
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 3px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 h3:hover {
-    text-shadow: -3px -3px 2px #F8EDEB;
+  text-shadow: -3px -3px 2px #f8edeb;
 }
 
 .navbar {
-    background-color: #FAE1DD80;
-    margin-bottom: 25px;
+  background-color: #fae1dd80;
+  margin-bottom: 25px;
 }
 
-.contact-links svg{
-    height: 30px;
+.contact-links svg {
+  height: 30px;
 }
 
 .bigSection {
-    background-color: #FEC5BB85;
-    border-radius: 8px;
-    margin-bottom: 25px;
+  background-color: #fec5bb85;
+  border-radius: 8px;
+  margin-bottom: 25px;
 }
 
 .landing {
-    background-color: #4e3b38e6;
-    color: #FFD7BA;
-    text-align: center;
-    margin-bottom: 25px;
-    border-radius: 8px;
+  background-color: #4e3b38e6;
+  color: #ffd7ba;
+  text-align: center;
+  margin-bottom: 25px;
+  border-radius: 8px;
 }
 
 .landing h3 {
-    font-family: 'Monoton', cursive;
-    font-size: 100px;
-    font-weight: normal;
-    text-shadow: 10px 10px 8px black;
+  font-family: "Monoton", cursive;
+  font-size: 100px;
+  font-weight: normal;
+  text-shadow: 10px 10px 8px black;
 }
 
 @media only screen and (max-width: 768px) {
-    .landing h3 {font-size: 50px;}
-
+  .landing h3 {
+    font-size: 50px;
+  }
 }
 
-
-#landing-text{
-    padding: 100px;
+#landing-text {
+  padding: 100px;
 }
 
 #about-me-text {
-    padding: 10px 20px;
-    text-align: justify;
+  padding: 10px 20px;
+  text-align: justify;
 }
 
-.skills{
-    text-align: center;
+.skills {
+  text-align: center;
 }
 
 .skills svg {
-    height: 50px;
-    margin: 10px 0px;
+  height: 75px;
+  margin: 10px 10px;
+  background: #fec5bb;
+  border-radius: 5px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-a:hover{
-    font-weight: bold;
-    text-decoration: none;
-    color: navyblue;
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: navyblue;
 }
 
 .second-link {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+
+
+.card-deck {
+  margin-bottom: 25px;
+  display: flex;
 }
 
 .card {
-    background-color: #FCD5CE;
-    border-radius: 5px;
+  background-color: #fcd5ce;
+  border-radius: 5px;
+  text-align: center;
+  height: 500px;
+  overflow: visible;
+}
+
+.card-text{
     text-align: justify;
-    overflow: hidden;
 }
 
 .row {
-    margin: 10px 5px 10px 5px;
+  margin: 10px 5px 10px 5px;
 }
 
-.card-deck {
-    margin-bottom: 25px;
+/* .card-img-top {
+  border: 2px solid #ffd7ba;
+  object-fit: cover;
+  height: 200px;
+} */
+
+#css-creature {
+  object-position: 5% 10%;
 }
 
-.card-img-top {
-    border: 2px solid #FFD7BA;
-    object-fit: cover;
-    height: 200px;
+.card:hover {
+    background-color: #FFE5D9;
+} 
+
+.card-footer,
+.card-title,
+.form-group {
+  text-align: center;
 }
 
-#css-creature{
-    object-position: 5% 10%;
+/* .card-footer{
+    align-self: flex-end;
+    justify-self: flex-start;
+} */
+
+.headshot {
+  border-radius: 10px;
+  border: 3px solid #ffd7ba;
 }
 
-.card-img-top:hover{
-    object-fit: cover;
-    height: 300px;
+.submit {
+  color: #0a0d0a;
+  background-color: #d8e2dc;
+  border-color: #ffd7ba;
+  margin-bottom: 5px;
 }
 
-.card-footer, .card-title, .form-group{
-    text-align:center;
+.submit:hover {
+  color: #0a0d0a;
+  background-color: #fcd5ce;
+  border-color: #ffd7ba;
 }
 
-.headshot{
-    border-radius: 10px;
-    border: 3px solid #FFD7BA;
+footer {
+  text-align: center;
 }
 
-.submit { 
-    color: #0A0D0A; 
-    background-color: #D8E2DC; 
-    border-color: #FFD7BA; 
-    margin-bottom: 5px;
-  } 
-   
-  .submit:hover { 
-    color: #0A0D0A; 
-    background-color: #FCD5CE; 
-    border-color: #FFD7BA; 
-  } 
-   
-footer{
-    text-align: center;
-}
-  
 /* 
 color palette:
 https://coolors.co/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a
