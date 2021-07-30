@@ -84,39 +84,30 @@ a:hover {
 
 .second-link {
   text-decoration: underline;
-}
-
-
+} 
 
 .card-deck {
   margin-bottom: 25px;
-  display: flex;
+  display: flex;  
+  justify-content: center;
 }
 
 .card {
   background-color: #fcd5ce;
   border-radius: 5px;
   text-align: center;
-  height: 500px;
   overflow: visible;
-}
-
-.card-text{
-    text-align: justify;
 }
 
 .row {
   margin: 10px 5px 10px 5px;
 }
 
-/* .card-img-top {
+.card-img-top {
+  filter: grayscale(100%);
   border: 2px solid #ffd7ba;
   object-fit: cover;
   height: 200px;
-} */
-
-#css-creature {
-  object-position: 5% 10%;
 }
 
 .card:hover {
@@ -125,14 +116,11 @@ a:hover {
 
 .card-footer,
 .card-title,
-.form-group {
+.form-group,
+.card-text {
   text-align: center;
 }
 
-/* .card-footer{
-    align-self: flex-end;
-    justify-self: flex-start;
-} */
 
 .headshot {
   border-radius: 10px;
@@ -155,6 +143,7 @@ a:hover {
 footer {
   text-align: center;
 }
+
 
 /* 
 color palette:
